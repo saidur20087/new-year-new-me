@@ -6,20 +6,19 @@
 
 body {
     font-family: "Work Sans", Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
     color: #333;
     line-height: 1.3;
     padding: 20px;
 }
 
-.hero-container .hero-image img {
-    width: 700px;
-    height: 500px;
-}
+
 
 .hero-content {
     text-align: right;
     font-family: "Work Sans", Arial, sans-serif;
+    max-width: 400px;
+    margin-left: auto;
 }
 
 .hero-section {
@@ -27,14 +26,18 @@ body {
     max-width: 1140px;
     margin: 0px auto;
     margin-bottom: 131px;
+    background-image: url("./images/banner/banner1.png");
+    background-size: cover;
+    background-position: left;
 }
 
 .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     text-align: center;
     margin-top: 5px;
+   
 }
 
 .hero-container h1 {
@@ -143,13 +146,13 @@ body {
 }
 
 /* my box */
-.my-box {
-    background-image: url(images/watch.png);
+.box-container {
+    background: url("./images/gradient3.png"),url("images/watch.png");
     background-size: cover;
-    background-position: center;
+    background-position: right, left;
     display: flex;
     align-items: center;
     max-width: 1140px;
     margin: 0px auto;
-
+    height: 400px;
 }

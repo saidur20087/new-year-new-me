@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.3;
+    padding: 20px;
+}
+
+.hero-container .hero-image img {
+    width: 700px;
+    height: 500px;
+}
+
+.hero-content {
+    text-align: right;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+.hero-section {
+    padding: 10px;
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-bottom: 131px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    color: #151414;
+
+}
+
+.hero-container p {
+    font-size: 16px;
+    margin: 20px 0;
+    margin-top: 24px;
+    line-height: 1.7;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+/* <!-- My failures --> */
+.failu-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 87px;
+    max-width: 1140px;
+    margin-bottom: 130px;
+    margin: 0px auto;
+
+}
+
+.failur-container {
+    margin-top: 200px;
+}
+
+.failur-container h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.failur-container p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.country-list li {
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+/* My Plans */
+.plan-container {
+    gap: 87px;
+    margin-top: 130px;
+}
+
+.plan-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.plan-container h2 {
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #151414;
+
+}
+
+.icon-section {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.icon-section img {
+    margin: 24px;
+}
+
+.icon-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #151414;
+}
+
+.icon-section p {
+    color: #737272;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 10px;
+}
+
+/* my box */
+.my-box {
+    background-image: url(images/watch.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
